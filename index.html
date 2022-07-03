@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png"href="css/components/images/favicon.ico">     
+    <title>Aditya Divedi</title>
+    <script src="https://kit.fontawesome.com/8611c7ce26.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="home--background--image" class="home-bg">
+        <header>
+            <nav>
+                <div class="header--wrapper">
+                    <div id="header--logo">
+                        <img src="css/components/images/logo_transparent.png" alt="">
+                    </div>
+                    <div class="header--nav nav--links">
+                        <ul id="menu">
+                            <li><a class="nav-link" href="#home">Home</a></li>
+                            <li><a class="nav-link" href="#about">About</a></li>
+                            <li><a class="nav-link"  href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="switchtheme">
+                        <input type="checkbox" id="checkbox" class="checkbox">
+                        <div class="test">
+                            <label for="checkbox" class="label">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="home--background--wrapper">
+                <div class="home--background--elements">
+                    <h1 class="home--title"> Hi I'm <span id="home--background--title">Aditya DIvedi</span> !</h1>   
+                    <p class="home--desc">Full-Stack-developer</p>
+                    <a id="home--background--contactme"href="#contact">Contact me !</a>
+                    <div class="about--links">
+                        <a target="_blank" href="https://www.linkedin.com/in/aditya-divedi-208294116/" class="home-link">
+                            <i class="aboutlink fa-brands fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/aditya__divedi/"  class="home-link">
+                            <i class="aboutlink fa-brands fab fa-instagram"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/divediamic530"  class="home-link">
+                            <i class="aboutlink fa-brands fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <section id="about">
+        <div class="about--wrapper">
+            <h2> <span class="about--title-background">A<span id="about--title-underline">bout</span> me !</span></h2>
+            <div class="skewbg">
+                <div class="about--big--wrapper">
+                    <div class="about--list--skills">
+                        <li class="skills">
+                            <i class=" borderh fa-brands fa-html5"></i>
+                            <p></p>
+                        </li">
+                        <li class="skills">
+                            <i class="fab fa-python"></i>
+                            <p></p>
+                        </li> 
+                        <li class="skills">
+                            <i class="fab fa-java"></i>
+                            <p></p>
+                        </li>
+                        <li class="skills">
+                            <i class='fab fa-php' style='font-size:36px'></i>
+                            <p></p>
+                        </li>
+                        <li class="skills">
+                            <i class="fab fa-figma"></i>
+                            <p></p>
+                        </li>
+                        <li class="skills">
+                            <i class=" bordersq fa-solid fa-database"></i>
+                            <p></p>
+                        </li>
+                        <li class="skills">
+                            <i class="borderbo fa-brands fa-bootstrap"></i>
+                            <p></p>
+                        </li>
+                        <li class="skills">
+                            <i class='fab fa-js' style='font-size:36px'></i>
+                            <p></p>
+                        </li>
+                        <li class="skills">
+                            <i class='fab fa-linux' style='font-size:36px'></i>
+                            <p></p>
+                        </li>
+                    </div>
+                    <div class="about--right-wrapper">
+                        <img src="css/components/images/mypic.jpg" alt="">
+                        <div class="about--self--description">
+                            <h3 id="about--title">A little <span id="about--title--span">presentation</span></h3>
+                            <p>Hello, My name is Aditya Divedi, <br> I aim to become a <span id="about--right--span">full stack developer.</span></p>
+                            <p> I have a passion for creating interactive, and responsive websites destop apps by using Python HTML, DJango, .Net, JAVA, PHP etc.. </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    <section id="contact">
+        <div class="contact--background">
+            <h2>Keep in touch !</h2>
+            <div class="container">
+                <form action="https://formsubmit.co/ca5551db988f23abead9fc13567e2aef" method="POST" >
+                    <i class="fas fa-paper-plane"></i>
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input name="name" type="text" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input name="email" type="email" class="form-control" placeholder="Enter Email" required>
+                    </div>   
+                    <div class="input-group">
+                        <label>Leave Some Message for Aditya</label>
+                        <textarea rows="5" name="message" placeholder="Enter your message"></textarea>
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_next" value="thanks.html" >
+
+                    </div>
+                    <button type="submit" >Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+      <a href="" class="top-btn" >
+        <i class="fa-solid fa-arrow-up"></i>     
+      </a>
+    <script src="main.js"></script>
+</body>
+</html>
